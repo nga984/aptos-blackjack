@@ -1,0 +1,31 @@
+[package]
+name = "BlackJack"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+BlackJack = "_"
+
+[dev-addresses]
+
+[dependencies.AptosStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-stdlib'
+
+
+[dependencies.MoveStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/move-stdlib'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+
+
+
+[dev-dependencies]
